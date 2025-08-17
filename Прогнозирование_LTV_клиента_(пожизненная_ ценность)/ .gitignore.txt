@@ -1,0 +1,43 @@
+# Игнорируем данные
+data/raw/
+data/processed/
+data/interim/
+data/external/
+
+# Игнорируем ноутбук чекпоинты
+.ipynb_checkpoints/
+
+# Игнорируем временные файлы и кэш
+*.tmp
+*.log
+*.csv
+*.tsv
+*.xlsx
+*.zip
+*.gz
+*.rar
+
+# Игнорируем системные файлы
+.DS_Store
+Thumbs.db
+
+# Игнорируем виртуальные окружения
+venv/
+.env/
+.env
+*.env
+
+# Игнорируем Python-кэш
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Игнорируем результаты экспериментов и моделей
+models/
+outputs/
+*.pkl
+*.joblib
+
+# Игнорируем файлы Kaggle API
+kaggle.json
